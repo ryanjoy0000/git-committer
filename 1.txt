@@ -372,3 +372,4 @@ Backfill update for 2015-12-29
 Backfill update for 2015-12-30
 Backfill update for 2015-12-31
 Backfill update for 2016-01-01
+Backfill update for 2016-01-02
