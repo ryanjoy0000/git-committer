@@ -534,3 +534,4 @@ Backfill update for 2016-06-08
 Backfill update for 2016-06-09
 Backfill update for 2016-06-10
 Backfill update for 2016-06-11
+Backfill update for 2016-06-12
