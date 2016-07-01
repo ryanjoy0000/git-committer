@@ -553,3 +553,4 @@ Backfill update for 2016-06-27
 Backfill update for 2016-06-28
 Backfill update for 2016-06-29
 Backfill update for 2016-06-30
+Backfill update for 2016-07-01
