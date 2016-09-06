@@ -620,3 +620,4 @@ Backfill update for 2016-09-02
 Backfill update for 2016-09-03
 Backfill update for 2016-09-04
 Backfill update for 2016-09-05
+Backfill update for 2016-09-06
