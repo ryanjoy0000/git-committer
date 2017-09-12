@@ -3772,3 +3772,4 @@ Backfill update for 2017-09-08
 Backfill update for 2017-09-09
 Backfill update for 2017-09-10
 Backfill update for 2017-09-11
+Backfill update for 2017-09-12
