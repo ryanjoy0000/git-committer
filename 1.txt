@@ -12394,3 +12394,4 @@ Backfill update for 2018-06-08
 Backfill update for 2018-06-09
 Backfill update for 2018-06-10
 Backfill update for 2018-06-11
+Backfill update for 2018-06-12
