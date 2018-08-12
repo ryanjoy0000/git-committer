@@ -12455,3 +12455,4 @@ Backfill update for 2018-08-08
 Backfill update for 2018-08-09
 Backfill update for 2018-08-10
 Backfill update for 2018-08-11
+Backfill update for 2018-08-12
