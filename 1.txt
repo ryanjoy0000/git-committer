@@ -12480,3 +12480,4 @@ Backfill update for 2018-09-02
 Backfill update for 2018-09-03
 Backfill update for 2018-09-04
 Backfill update for 2018-09-05
+Backfill update for 2018-09-06
