@@ -12486,3 +12486,4 @@ Backfill update for 2018-09-08
 Backfill update for 2018-09-09
 Backfill update for 2018-09-10
 Backfill update for 2018-09-11
+Backfill update for 2018-09-12
