@@ -12517,3 +12517,4 @@ Backfill update for 2018-10-09
 Backfill update for 2018-10-10
 Backfill update for 2018-10-11
 Backfill update for 2018-10-12
+Backfill update for 2018-10-13
