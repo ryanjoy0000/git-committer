@@ -1424,3 +1424,4 @@ Backfill update for 2018-11-15
 Backfill update for 2018-11-16
 Backfill update for 2018-11-17
 Backfill update for 2018-11-18
+Backfill update for 2018-11-19
