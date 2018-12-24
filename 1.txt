@@ -12589,3 +12589,4 @@ Backfill update for 2018-12-20
 Backfill update for 2018-12-21
 Backfill update for 2018-12-22
 Backfill update for 2018-12-23
+Backfill update for 2018-12-24
