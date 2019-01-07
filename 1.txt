@@ -12603,3 +12603,4 @@ Backfill update for 2019-01-03
 Backfill update for 2019-01-04
 Backfill update for 2019-01-05
 Backfill update for 2019-01-06
+Backfill update for 2019-01-07
