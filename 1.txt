@@ -1478,3 +1478,4 @@ Backfill update for 2019-01-08
 Backfill update for 2019-01-09
 Backfill update for 2019-01-10
 Backfill update for 2019-01-11
+Backfill update for 2019-01-12
