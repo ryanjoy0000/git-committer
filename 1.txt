@@ -12611,3 +12611,4 @@ Backfill update for 2019-01-11
 Backfill update for 2019-01-12
 Backfill update for 2019-01-13
 Backfill update for 2019-01-14
+Backfill update for 2019-01-15
