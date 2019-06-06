@@ -1623,3 +1623,4 @@ Backfill update for 2019-06-02
 Backfill update for 2019-06-03
 Backfill update for 2019-06-04
 Backfill update for 2019-06-05
+Backfill update for 2019-06-06
