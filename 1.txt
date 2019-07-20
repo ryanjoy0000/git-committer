@@ -12797,3 +12797,4 @@ Backfill update for 2019-07-16
 Backfill update for 2019-07-17
 Backfill update for 2019-07-18
 Backfill update for 2019-07-19
+Backfill update for 2019-07-20
