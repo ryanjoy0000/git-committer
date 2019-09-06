@@ -12845,3 +12845,4 @@ Backfill update for 2019-09-02
 Backfill update for 2019-09-03
 Backfill update for 2019-09-04
 Backfill update for 2019-09-05
+Backfill update for 2019-09-06
