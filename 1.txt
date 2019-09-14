@@ -10070,3 +10070,4 @@ Backfill update for 2019-09-10
 Backfill update for 2019-09-11
 Backfill update for 2019-09-12
 Backfill update for 2019-09-13
+Backfill update for 2019-09-14
