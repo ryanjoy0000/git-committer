@@ -10098,3 +10098,4 @@ Backfill update for 2019-10-08
 Backfill update for 2019-10-09
 Backfill update for 2019-10-10
 Backfill update for 2019-10-11
+Backfill update for 2019-10-12
