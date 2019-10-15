@@ -12884,3 +12884,4 @@ Backfill update for 2019-10-11
 Backfill update for 2019-10-12
 Backfill update for 2019-10-13
 Backfill update for 2019-10-14
+Backfill update for 2019-10-15
