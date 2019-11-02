@@ -7337,3 +7337,4 @@ Backfill update for 2019-10-29
 Backfill update for 2019-10-30
 Backfill update for 2019-10-31
 Backfill update for 2019-11-01
+Backfill update for 2019-11-02
