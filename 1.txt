@@ -10121,3 +10121,4 @@ Backfill update for 2019-10-31
 Backfill update for 2019-11-01
 Backfill update for 2019-11-02
 Backfill update for 2019-11-03
+Backfill update for 2019-11-04
