@@ -12913,3 +12913,4 @@ Backfill update for 2019-11-09
 Backfill update for 2019-11-10
 Backfill update for 2019-11-11
 Backfill update for 2019-11-12
+Backfill update for 2019-11-13
