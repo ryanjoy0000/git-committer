@@ -12945,3 +12945,4 @@ Backfill update for 2019-12-11
 Backfill update for 2019-12-12
 Backfill update for 2019-12-13
 Backfill update for 2019-12-14
+Backfill update for 2019-12-15
