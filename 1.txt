@@ -12950,3 +12950,4 @@ Backfill update for 2019-12-16
 Backfill update for 2019-12-17
 Backfill update for 2019-12-18
 Backfill update for 2019-12-19
+Backfill update for 2019-12-20
