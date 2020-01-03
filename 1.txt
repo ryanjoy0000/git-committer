@@ -10181,3 +10181,4 @@ Backfill update for 2019-12-30
 Backfill update for 2019-12-31
 Backfill update for 2020-01-01
 Backfill update for 2020-01-02
+Backfill update for 2020-01-03
