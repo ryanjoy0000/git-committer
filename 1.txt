@@ -12978,3 +12978,4 @@ Backfill update for 2020-01-13
 Backfill update for 2020-01-14
 Backfill update for 2020-01-15
 Backfill update for 2020-01-16
+Backfill update for 2020-01-17
