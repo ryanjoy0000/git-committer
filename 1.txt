@@ -2001,3 +2001,4 @@ Backfill update for 2020-06-14
 Backfill update for 2020-06-15
 Backfill update for 2020-06-16
 Backfill update for 2020-06-17
+Backfill update for 2020-06-18
