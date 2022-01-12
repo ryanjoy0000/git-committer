@@ -13704,3 +13704,4 @@ Backfill update for 2022-01-08
 Backfill update for 2022-01-09
 Backfill update for 2022-01-10
 Backfill update for 2022-01-11
+Backfill update for 2022-01-12
