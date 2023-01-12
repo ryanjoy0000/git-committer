@@ -14069,3 +14069,4 @@ Backfill update for 2023-01-08
 Backfill update for 2023-01-09
 Backfill update for 2023-01-10
 Backfill update for 2023-01-11
+Backfill update for 2023-01-12
