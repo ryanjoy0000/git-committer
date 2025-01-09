@@ -71,3 +71,82 @@ jobs:
 
       - name: Push changes
         run: git push origin main
+
+  # This job runs manually
+  backfill-commit:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest #machine
+    #sequence of steps
+    steps:
+      # checkout the git repo to access it
+      - name: Check out the repo
+        uses: actions/checkout@v3
+      # setup the git user on the machine
+      - name: Set up Git user
+        run: |
+          git config --global user.name "ryanjoy0000"
+          git config --global user.email "ryanjoy0000@gmail.com"
+
+      - name: Backfill commits for date range
+        run: |
+          # Get start and end dates from manual inputs (default to an example date range)
+          START_DATE="${{ github.event.inputs.start-date || '2025-01-06' }}"
+          END_DATE="${{ github.event.inputs.end-date || '2025-01-08' }}"
+
+          echo "Backfilling commits from $START_DATE to $END_DATE"
+
+          # Convert dates to seconds since epoch
+          start_epoch=$(date -d "$START_DATE" +%s)
+          end_epoch=$(date -d "$END_DATE" +%s)
+
+          while [ "$start_epoch" -le "$end_epoch" ]; do
+            CURRENT_DATE=$(date -d "@$start_epoch" +"%Y-%m-%d")
+            echo "Creating commit for date: $CURRENT_DATE"
+
+            # Generate random commit message
+            MESSAGES=(
+              "Daily update - small tweaks! ✨"
+              "Another day, another commit 🚀"
+              "Daily grind! Keeping things fresh ⚙️"
+              "Just making sure everything's good! 👍"
+              "Commiting some awesomeness today 🌟"
+              "Tiny changes make big differences! 🛠️"
+              "Automated update - let's keep moving!"
+              "Simple changes, strong impact 💪"
+              "Keeping the momentum going! 🚀"
+              "One commit closer to greatness ✨"
+              "Code, coffee, and commits ☕"
+              "The force is strong with this one 🌌"
+              "Another one bites the dust 🎵"
+              "Mission accomplished! ✅"
+              "Commit it like it’s hot 🔥"
+              "Housekeeping mode activated 🛁"
+              "Fixed something... hopefully 🤞"
+              "This definitely won’t break... right? 🤔"
+              "Yup, still works 🎉"
+              "Don’t worry, I tested it! (kind of...) 😅"
+              "Future me will understand this... I hope 🧠"
+              "Adding some charm to this code ✨"
+              "Spreading good vibes through code 🌈"
+              "Today’s code: powered by positivity 🌟"
+              "Sending good commits and good energy ✌️"
+              "Let’s keep this party going 🎉"
+              "Chipping away at awesomeness 🛠️"
+            )
+            INDEX=$((RANDOM % ${#MESSAGES[@]}))
+            MESSAGE=${MESSAGES[$INDEX]}
+
+            # Modify the file with the current date
+            echo "Backfill update for $CURRENT_DATE" >> 1.txt
+
+            # Stage and commit with the specific date
+            git add 1.txt
+            GIT_AUTHOR_DATE="$CURRENT_DATE 12:00:00" GIT_COMMITTER_DATE="$CURRENT_DATE 12:00:00" \
+            git commit -m "$MESSAGE"
+
+            # Increment to the next day (86400 seconds = 1 day)
+            start_epoch=$((start_epoch + 86400))
+          done
+
+      - name: Push backfill commits
+        run: git push origin main
