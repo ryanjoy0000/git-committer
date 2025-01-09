@@ -1,0 +1,54 @@
+# 2 jobs - Backfill & Daily Commits
+name: Backfill + Daily Commit
+
+# Controls when the action will run. Workflow runs when manually triggered using the UI
+# or API.
+on:
+  schedule:
+    - cron: '0/5 * * * *' # CRON expression
+  workflow_dispatch: # Allows manual trigger
+
+jobs:
+  # This job runs only for scheduled daily commits on a machine
+  daily-commit:
+    if: github.event_name == 'schedule' 
+    runs-on: ubuntu-latest # machine
+    # sequence of tasks
+    steps:
+      # checkout the git repo to access it
+      - name: Check out the repo
+        uses: actions/checkout@v3
+      # setup the git user on the machine
+      - name: Set up Git user
+        run: |
+          git config --global user.name "ryanjoy0000"
+          git user.email "ryanjoy0000@gmail.com"
+      # compose git message
+      - name: Git message
+        id: commit-message
+        run: |
+          MESSAGES=(
+            "Daily update - small tweaks! ✨"
+            "Another day, another commit 🚀"
+            "Daily grind! Keeping things fresh ⚙️"
+            "Just making sure everything's good! 👍"
+            "Commiting some awesomeness today 🌟"
+            "Tiny changes make big differences! 🛠️"
+            "Automated update - let's keep moving!"
+            "Simple changes, strong impact 💪"
+          )
+          INDEX=$((RANDOM % ${#MESSAGES[@]}))
+          MESSAGE=${MESSAGE[$INDEX]}
+          echo "COMMIT_MESSAGE=$MESSAGE" >> $GITHUB_ENV
+
+      - name: Modify file
+        run: echo "Daily update on $(date)" >> 1.txt
+
+      - name: Stage changes
+        run: git add 1.txt
+
+      - name: Commit changes
+        run: git commit -m "$COMMIT_MESSAGE"
+
+      - name: Push changes
+        run: git push origin main
