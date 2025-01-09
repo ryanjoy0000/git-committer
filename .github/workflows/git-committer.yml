@@ -5,7 +5,7 @@ name: Backfill + Daily Commit
 # or API.
 on:
   schedule:
-    - cron: "0/5 * * * *" # CRON expression
+    - cron: "0 10,11 * * *" # CRON expression
   workflow_dispatch: # Allows manual trigger
 
 jobs:
