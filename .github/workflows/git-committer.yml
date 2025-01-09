@@ -5,13 +5,13 @@ name: Backfill + Daily Commit
 # or API.
 on:
   schedule:
-    - cron: '0/5 * * * *' # CRON expression
+    - cron: "0/5 * * * *" # CRON expression
   workflow_dispatch: # Allows manual trigger
 
 jobs:
   # This job runs only for scheduled daily commits on a machine
   daily-commit:
-    if: github.event_name == 'schedule' 
+    if: github.event_name == 'schedule'
     runs-on: ubuntu-latest # machine
     # sequence of tasks
     steps:
@@ -22,7 +22,7 @@ jobs:
       - name: Set up Git user
         run: |
           git config --global user.name "ryanjoy0000"
-          git user.email "ryanjoy0000@gmail.com"
+          git config --global user.email "ryanjoy0000@gmail.com"
       # compose git message
       - name: Git message
         id: commit-message
