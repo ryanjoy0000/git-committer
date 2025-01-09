@@ -38,7 +38,7 @@ jobs:
             "Simple changes, strong impact 💪"
           )
           INDEX=$((RANDOM % ${#MESSAGES[@]}))
-          MESSAGE=${MESSAGE[$INDEX]}
+          MESSAGE=${MESSAGES[$INDEX]}
           echo "MESSAGE=$MESSAGE" >> $GITHUB_ENV
 
       - name: Modify file
