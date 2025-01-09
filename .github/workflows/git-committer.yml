@@ -7,6 +7,15 @@ on:
   schedule:
     - cron: "0 10,11 * * *" # CRON expression
   workflow_dispatch: # Allows manual trigger
+    inputs:
+      start-date:
+        description: "Start date for backfill (YYYY-MM-DD)"
+        required: true
+        default: "2025-01-01"
+      end-date:
+        description: "End date for backfill (YYYY-MM-DD)"
+        required: true
+        default: "2025-01-05"
 
 jobs:
   # This job runs only for scheduled daily commits on a machine
