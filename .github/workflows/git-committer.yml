@@ -39,7 +39,7 @@ jobs:
           )
           INDEX=$((RANDOM % ${#MESSAGES[@]}))
           MESSAGE=${MESSAGE[$INDEX]}
-          echo "COMMIT_MESSAGE=$MESSAGE" >> $GITHUB_ENV
+          echo "MESSAGE=$MESSAGE" >> $GITHUB_ENV
 
       - name: Modify file
         run: echo "Daily update on $(date)" >> 1.txt
@@ -48,7 +48,7 @@ jobs:
         run: git add 1.txt
 
       - name: Commit changes
-        run: git commit -m "$COMMIT_MESSAGE"
+        run: git commit -m "$MESSAGE"
 
       - name: Push changes
         run: git push origin main
